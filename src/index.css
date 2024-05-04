@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.roboto_font{
+    font-family: "Roboto", sans-serif;    
+}
+
+.lato_font {
+    font-family: "Lato", sans-serif;    
+}
