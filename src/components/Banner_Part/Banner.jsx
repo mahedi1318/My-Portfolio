@@ -3,7 +3,7 @@ import BannerImg from "../../assets/banner-img.jpg"
 const Banner = () => {
   return (
     <>
-      <div className='bg-[#E8F5E9] w-full h-[500px]'>
+      <div className='bg-[#0F1726] w-full h-[500px]'>
         <div className='container flex justify-between'>
           <div className="text inline-block mt-[100px]">
             <h1 className='text-2xl lato_font font-medium text-gray-500 w-[400px] leading-10'>I AM A FRONT-END DEVELOPER (REACT $ NEXT JS)</h1>            
