@@ -5,7 +5,7 @@ const SkillsLevel = ({skillName, percentage}) => {
     <>
     <div className='text-white mt-8'>
         <div className='flex justify-between items-end'>
-            <p className='text-xl font-bold mb-2'>{skillName}</p>
+            <p className='text-xl font-bold lato_font mb-2'>{skillName}</p>
             <p className='text-xl font-bold'>{percentage}</p>
         </div>  
         <div>
