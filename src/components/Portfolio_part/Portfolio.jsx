@@ -9,7 +9,7 @@ import ImgSix from "../../assets/img-6.jpg"
 const Portfolio = () => {
   return (
     <>
-    <div className='pt-[20px] pb-[40px] bg-slate-700'>
+    <div className='pt-[20px] pb-[40px] bg-[#0F1726]'>
         <div className="container">
             <div className="title">
                 <h1 className='text-center text-4xl lato_font font-bold text-white'>PORT<strong className='text-[#daa520]'>FOLIO</strong></h1>
