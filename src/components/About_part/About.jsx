@@ -3,21 +3,21 @@ import AboutImg from "../../assets/banner-img.jpg"
 const About = () => {
   return (
     <>
-      <div className='w-full pt-[40px] pb-[150px] bg-[#0F1726]'>
+      <div className='w-full lg:w-full pt-[40px] xl:pb-[150px] md:p-[52px] bg-[#0F1726]'>
         <div className="container">
             <div className="title text-center text-white">
                 <h2 className='pt-5 lato_font font-bold text-4xl'>ABOUT <strong className='text-[#daa520]'>ME</strong> </h2>
-                <span className='lato_font text-base font-normal mt-4 block'>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</span>
+                <span className='lato_font text-base font-normal mb:text-[14px] mt-4 block'>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</span>
             </div>
-            <div className=' grid grid-cols-2 gap-8 mt-14'>
+            <div className=' grid xl:grid-cols-2 sm:grid-cols-1 gap-8 mt-14 lg:grid-cols-2 '>
                 <div className="relative">
-                    <div className="absolute top-[0px] right-[58px]">
-                        <img className="w-[360px] z-10 relative rounded-lg" src={AboutImg} alt="" />
-                        <div className="w-[355px] h-[355px] absolute top-[35px] left-[35px] border-8 border-[#daa520]"></div>
+                    <div className="absolute top-[0px] right-[58px] sm:hidden lg:block mb:hidden">
+                        <img className="w-[360px] z-10 relative rounded-lg lg:w-[286px]" src={AboutImg} alt="" />
+                        <div className="w-[355px] h-[355px] lg:w-[280px] lg:h-[280px] absolute top-[35px] left-[35px] border-8 border-[#daa520]"></div>
                     </div>
                     
                 </div>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid xl:grid-cols-2 gap-4 md:w-[600px] md:m-auto lg:w-full mb:grid-cols-1 sm:grid-cols-2 mb:m-auto">
                     <div className="">
                         <ul>
                             <li className="mb-6 lato_font font-semibold text-base">

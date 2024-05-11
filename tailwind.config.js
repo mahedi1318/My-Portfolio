@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        mb : "320px"
+      },
       container: {
         center: true,       
       }

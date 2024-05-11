@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className='w-full pt-[30px] pb-[40px] bg-[#0f172a]'>
        <div className="container">
-        <div className='grid grid-cols-3 gap-4 pt-[40px] '>
+        <div className='grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 gap-4 pt-[40px] '>
           <div className="bg-[#09101a] py-[60px] px-[30px] rounded-xl text-center">
             <div className="text-6xl text-[#55e6a5] flex justify-center">
              <MdOutlineSpeakerPhone />
